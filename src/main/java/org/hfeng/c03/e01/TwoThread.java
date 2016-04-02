@@ -27,7 +27,7 @@ public class TwoThread extends Thread {
 
     public static void main(String[] args) {
         TwoThread tt = new TwoThread();
-        tt.start();
+        tt.start(); // start() will internally trigger the run()
 
         for (int i = 0; i < 10; i++) {
             tt.printMsg();
