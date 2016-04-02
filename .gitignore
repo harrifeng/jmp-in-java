@@ -9,3 +9,11 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+
+# Intellij IDE stuff
+*.iml
+*.ipr
+*.iws
+
+# Intellij build folder
+out/
